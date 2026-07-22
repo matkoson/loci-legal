@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FocusFlow AI — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      line-height: 1.55;
+      max-width: 40rem;
+      margin: 2rem auto;
+      padding: 0 1.25rem 3rem;
+      color: #1c1c1e;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #f2f2f7; }
+      a { color: #64d2ff; }
+    }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    .meta { color: #8e8e93; font-size: 0.9rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+    p, li { font-size: 0.98rem; }
+  </style>
+</head>
+<body>
+  <h1>FocusFlow AI Privacy Policy</h1>
+  <p class="meta">Effective date: 19 July 2026 · Last updated: 22 July 2026</p>
+
+  <p>
+    FocusFlow AI (“FocusFlow”, “we”, “the app”) is a productivity app for
+    planning and running focus sessions on Apple devices. This policy describes
+    how FocusFlow handles information.
+  </p>
+
+  <h2>No data collection</h2>
+  <p>
+    FocusFlow does <strong>not collect</strong> personal data. There is no
+    analytics SDK, no advertising identifier, no crash-reporting vendor, no
+    account system, and no server backend operated by us. We do not sell, rent,
+    share, or transfer user data to third parties because we do not receive it.
+  </p>
+
+  <h2>Fully on-device processing</h2>
+  <p>
+    All processing happens <strong>fully on-device</strong> on your iPhone, iPad,
+    or Mac:
+  </p>
+  <ul>
+    <li>
+      Calendar access (when you grant it) is used only locally to find free
+      windows for focus suggestions. Calendar contents never leave the device
+      through FocusFlow.
+    </li>
+    <li>
+      On-device AI suggestions use Apple’s FoundationModels framework
+      (SystemLanguageModel) entirely on your device. Prompts, calendar-derived
+      context, and model output stay on device. When Apple Intelligence is
+      unavailable, a deterministic rule-based engine runs locally instead.
+    </li>
+    <li>
+      Session history, stats, settings, and subscription status are stored in
+      local app storage (and, only if you later enable iCloud sync via a future
+      build flag and portal configuration, in your personal iCloud container —
+      still not on any FocusFlow server).
+    </li>
+    <li>
+      Live Activities, widgets, notifications, and Focus-status checks run
+      through Apple system APIs on the same device.
+    </li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <p>
+    FocusFlow may ask for Calendar, Notifications, and Focus status. Each is
+    optional; declining any of them degrades only the related feature. You can
+    revoke permissions at any time in system Settings.
+  </p>
+
+  <h2>Purchases</h2>
+  <p>
+    Optional FocusFlow Pro subscriptions are processed by Apple through
+    StoreKit / App Store billing. We do not receive or store your payment card
+    details. Apple’s privacy policy applies to purchase processing.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    FocusFlow is rated 4+ and does not knowingly collect data from children.
+    There is no sign-up flow and no data collection surface.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes, the updated page will carry a new “Last updated”
+    date. Material changes that affect App Store privacy labels will be
+    reflected in App Store Connect before the corresponding app version ships.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: the App Store listing’s developer contact for
+    FocusFlow AI (Mateusz Koson / matkoson).
+  </p>
+</body>
+</html>
